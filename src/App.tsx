@@ -4,7 +4,7 @@ import { MMKV } from 'react-native-mmkv';
 
 import { ThemeProvider } from '@/theme';
 
-import ApplicationNavigator from './navigators/Application';
+import WizardNavigator from './navigators/WizardNavigator';
 import './translations';
 
 export const queryClient = new QueryClient();
@@ -15,7 +15,7 @@ function App() {
 	return (
 		<QueryClientProvider client={queryClient}>
 			<ThemeProvider storage={storage}>
-				<ApplicationNavigator />
+				<WizardNavigator />
 			</ThemeProvider>
 		</QueryClientProvider>
 	);

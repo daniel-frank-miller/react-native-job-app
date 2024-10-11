@@ -2,5 +2,7 @@
   "appName": {
     "full": "React Native MyApp",
     "initials": "RNB"
-  }
+  },
+  "createAccount": "Create an account",
+  "logIn": "Log in"
 }
