@@ -7,6 +7,11 @@ export type RootStackParamList = {
 	Welcome: undefined;
 	SignUp: undefined;
 	LogIn: undefined;
+	VerifyPhoneNumber: undefined;
+
+	AddSkills: undefined;
+	WorkingConditions: undefined;
+	Languages: undefined;
 };
 
 export type RootScreenProps<

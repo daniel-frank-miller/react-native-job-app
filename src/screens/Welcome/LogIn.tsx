@@ -22,6 +22,7 @@ function LogIn({ navigation }: { navigation: any }) {
 
 	const handleLogin = () => {
 		// Handle login logic here
+        navigation.navigate('VerifyPhoneNumber');
 	};
 
 	return (
